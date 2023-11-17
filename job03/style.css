@@ -1,0 +1,34 @@
+@media only screen and (min-width: 1600px){
+    .sections{
+        display: flex;
+        flex-direction: row;
+    }  
+    section{
+        background-color: #88c1d0;
+        border: 1px solid black;
+    }
+}
+@media only screen and (max-width: 1599px){
+    .sections{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  
+    section{
+        background-color: #88c1d0;
+        border: 1px solid black;
+        width: 49%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .sections{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  
+    section{
+        background-color: #88c1d0;
+        border: 1px solid black;
+        width: 100%;
+    }
+}
